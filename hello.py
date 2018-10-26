@@ -1,2 +1,4 @@
 # -*- coding: utf-8 -*-
-print("hello world!",end="")
+import time
+if time.strftime("%H:%M")!="20:25":
+    print("hello world!",end="")
